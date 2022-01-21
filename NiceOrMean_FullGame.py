@@ -73,9 +73,9 @@ def score(nice,mean,name):
 def win(nice,mean,name):
     #Substitute the {} wildcards with our variable values
     print("\nNice job {}, you win! \nEveryone loves you and you and you've \nmade lots of friends along the way!".format(name))
-    from playsound import playsound
-    playsound('PySound\38798819_correct-answer-bell-and-applause-02')
-    #call again function and pass in our variables
+    import playsound
+    playsound.playsound('win.mp3')
+    #call again function and pass in our variables  Above is the proper syntax for adding a sound effect to the program
     again(nice,mean,name)
 
 def lose(nice,mean,name):
