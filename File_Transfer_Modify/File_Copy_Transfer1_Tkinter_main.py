@@ -1,3 +1,4 @@
+import tkinter 
 from tkinter import *
 import tkinter as tk
 from tkinter import messagebox
@@ -7,7 +8,7 @@ import File_Copy_Transfer1_Tkinter_gui
 
 
 
-class ParentWindow(Frame):                      # Frame is primary tkinter class object
+class ParentWindow(Frame):                      # Frame is primary tkinter class object.
     def __init__(self, master, *args, **kwargs):
         Frame.__init__(self, master, *args, **kwargs)
 
