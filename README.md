@@ -2,7 +2,7 @@
 
 ## Contents:
 
-#### Nice or Mean Game
+### Nice or Mean Game
 - A fully functional game passing user input values from function to function giving choice to be nice or mean in different scenarios.  Sound effects included for winning or losing.
 
 ### Tkinter File_Transfer_Modify UI
