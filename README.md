@@ -8,7 +8,7 @@
 ### Tkinter File_Transfer_Modify UI
 - A tkinter UI giving user option to choose a directory from file explorer to import files to another directory.  The script determines what files have been created or modified within 24 hours and only imports those files under that classifaction.
 
-### Tkinter webpage adjuster
+### Tkinter webpage adjuster (folder name > tkinter)
 - A tkinter UI that allows user to add additional text into a webpage using Update function.  This webpage automatically opens users browser window and displays the added text.
 
 ### Django University Classes webapp
